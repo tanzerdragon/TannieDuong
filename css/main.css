@@ -1,0 +1,10 @@
+/** Milestone 001 **/
+
+body {
+    font-family: 'Cormorant', 'Raleway', sans-serif, serif;
+    background: #CCCCFF;
+}
+
+#about, #work, #contact {
+    height: 600px;
+}
