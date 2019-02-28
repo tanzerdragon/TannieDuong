@@ -1,10 +1,229 @@
 /** Milestone 001 **/
 
 body {
-    font-family: 'Cormorant', 'Raleway', sans-serif, serif;
-    background: #CCCCFF;
+    font-family: 'Lato', serif;
+    font-size: 22pt;
+    background: white;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 #about, #work, #contact {
-    height: 600px;
+  font-family: 'Raleway';
+}
+a:hover{
+  color: #602d93;
+}
+a {
+  text-decoration: none;
+}
+
+header {
+  background: url('../img/header.jpg') no-repeat #dddddb;
+}
+
+h2 {
+  font-size: 36pt;
+}
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  position: relative;
+  float: left;
+
+}
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/** Header **/
+
+.logo {
+  margin: 20px 20px 20px 20px;
+}
+
+header {
+  height: 800px;
+  font-family: 'Cormorant';
+}
+
+header .full-width {
+  width: 1200px;
+}
+
+header h1 {
+  font-size: 48pt;
+}
+
+header h2 {
+  font-family: 'Lora', serif;
+  font-size: 32pt;
+}
+
+nav {
+  float: right;
+  text-align: center;
+  padding: 50px 25px 0 0;
+
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  color: #952449;
+  font-family: 'Cormorant', serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  list-style-type: none;
+  margin: 0;
+  display: inline-block;
+  margin-right: 25px;
+
+}
+
+.intro {
+  float: left;
+  color: #421555;
+  text-align: left;
+  margin: 0px 100px 100px 100px;
+}
+
+.myname {
+  color: #952449;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.pronounce {
+  font-family: 'Raleway Dots', cursive;
+  font-size: 18pt;
+  line-height: 30px;
+
+}
+/****** about ******/
+
+#about {
+  height:1050px;
+  background-color: #602d93;
+  color: #dddddb;
+  text-align: center;
+  padding-top: 100px;
+}
+#about h3 {
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+#about img {
+  border: 5px solid white;
+  margin: 0;
+  padding: 0;
+}
+
+#about .profile-summary {
+  font-size: 16pt;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 0;
+  margin-right: 200px;
+  margin-bottom: 0;
+}
+
+
+/****** work ******/
+
+#work {
+  color: #421555;
+  font-size: 24px;
+  height: 850px;
+  text-align: center;
+  margin: 0 auto;
+  float: left;
+  background: #dddddb;
+  display: inline-block;
+}
+
+#work img {
+  border: 1px solid #421555;
+  padding: 0;
+  margin: 0;
+}
+
+#work h5 {
+  font-size: 24pt;
+  font-weight: bold;
+  line-height: 0px;
+}
+#work p {
+  font-size: 22pt;
+  line-height: 25px;
+
+}
+.text-third-width h5 {
+  padding: -30px;
+}
+
+.full-width h2 {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+/****** contact ******/
+
+#contact {
+  height: 650px;
+  background-color: #421555;
+  color: #dddddb;
+  text-align: center;
+  padding-top: 100px;
+  clear: both;
+}
+
+#contact h2 {
+  font-size: 36pt;
+  line-height: 0;
+}
+
+#contact ul {
+  list-style: none;
+  padding-right: 43px;
+  padding-bottom: 50px;
+}
+#contact .icons li{
+  display: inline;
+}
+
+#contact a{
+  text-align: center;
+  color: #952449;
+}
+#contact .links {
+  text-align: center;
+}
+#contact a:hover{
+  color: grey;
+}
+}
+#contact .email{
+  margin: 0px 0px 0px 100px;
+  text-align: center;
+}
+.half-width h3{
+  padding: 0px 30px;
+}
+
+/****** footer ******/
+
+.copyright {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16pt;
+  text-align: center;
+  margin-top: 525px;
+  padding: 0;
 }
