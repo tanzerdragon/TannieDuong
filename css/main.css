@@ -1,31 +1,30 @@
 /** Milestone 001 **/
 
 body {
-    font-family: 'Lato', serif;
     font-size: 22pt;
     background: white;
+    font-family: 'Cormorant', serif;
 }
 .container {
   width: 1200px;
   margin: 0 auto;
 }
 
-#about, #work, #contact {
-  font-family: 'Raleway';
-}
 a:hover{
   color: #602d93;
 }
+
 a {
   text-decoration: none;
 }
 
 header {
-  background: url('../img/header.jpg') no-repeat #dddddb;
+  background: url('../img/header.png') no-repeat #dddddb;
 }
 
 h2 {
   font-size: 36pt;
+  font-family: 'Cormorant', serif;
 }
 
 .full-width {
@@ -37,12 +36,13 @@ h2 {
   width: 600px;
   position: relative;
   float: left;
-
+  display: inline-block;
 }
 .third-width {
   width: 400px;
   float: left;
 }
+
 
 /** Header **/
 
@@ -51,8 +51,7 @@ h2 {
 }
 
 header {
-  height: 800px;
-  font-family: 'Cormorant';
+  height: 800px
 }
 
 header .full-width {
@@ -61,10 +60,11 @@ header .full-width {
 
 header h1 {
   font-size: 48pt;
+  font-family: 'Cormorant';
 }
 
 header h2 {
-  font-family: 'Lora', serif;
+  font-family: 'Cormorant', serif;
   font-size: 32pt;
 }
 
@@ -79,14 +79,14 @@ nav ul li {
 }
 nav ul li a {
   color: #952449;
-  font-family: 'Cormorant', serif;
-  font-weight: bold;
+  font-family: 'Raleway',sans-serif;
+  font-weight: lighter;
+  font-size: 18pt;
   text-transform: uppercase;
   list-style-type: none;
   margin: 0;
   display: inline-block;
   margin-right: 25px;
-
 }
 
 .intro {
@@ -116,9 +116,15 @@ nav ul li a {
   text-align: center;
   padding-top: 100px;
 }
+#about h2 {
+  font-weight: bold;
+  font-size: 36pt;
+  font-family: 'Cormorant', serif;
+}
 #about h3 {
   font-weight: bold;
   font-size: 18pt;
+
 }
 
 #about img {
@@ -148,6 +154,7 @@ nav ul li a {
   float: left;
   background: #dddddb;
   display: inline-block;
+  font-family: 'Cormorant', serif;
 }
 
 #work img {
@@ -157,12 +164,12 @@ nav ul li a {
 }
 
 #work h5 {
-  font-size: 24pt;
+  font-size: 22pt;
   font-weight: bold;
   line-height: 0px;
 }
 #work p {
-  font-size: 22pt;
+  font-size: 20pt;
   line-height: 25px;
 
 }
@@ -182,8 +189,13 @@ nav ul li a {
   color: #dddddb;
   text-align: center;
   padding-top: 100px;
+
   clear: both;
 }
+#contact .full-width {
+  width: 1200px;
+}
+
 
 #contact h2 {
   font-size: 36pt;
@@ -202,16 +214,19 @@ nav ul li a {
 #contact a{
   text-align: center;
   color: #952449;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18pt;
 }
+
 #contact .links {
   text-align: center;
 }
-#contact a:hover{
+
+#contact a:hover {
   color: grey;
 }
-}
+
 #contact .email{
-  margin: 0px 0px 0px 100px;
   text-align: center;
 }
 .half-width h3{
@@ -224,6 +239,6 @@ nav ul li a {
   font-family: 'Raleway', sans-serif;
   font-size: 16pt;
   text-align: center;
-  margin-top: 525px;
+  margin-top: 570px;
   padding: 0;
 }
